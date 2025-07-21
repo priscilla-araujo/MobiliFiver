@@ -1,0 +1,25 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background: url('./imagem/banner.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    }
+    .btn-lime {
+      background-color: #6AFF6A;
+      color: #000;
+      border: none;
+    }
+    .btn-lime:hover {
+      background-color: #52cc52;
+    }
